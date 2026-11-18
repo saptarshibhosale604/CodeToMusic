@@ -1,0 +1,17 @@
+# MusicCode GUI Dependencies
+# Install with: pip install -r requirements.txt
+
+# GUI Framework
+customtkinter>=5.2.0
+
+# AST manipulation for code generation
+astor>=0.8.1
+
+# Code formatting (optional but recommended)
+black>=23.0.0
+
+# Core MusicCode library (should be available from ../core)
+# music_code @ file:../core
+
+# Standard library (included with Python)
+# ast, json, dataclasses, typing, tkinter, subprocess, tempfile, os, sys
